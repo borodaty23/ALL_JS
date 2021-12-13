@@ -1,0 +1,21 @@
+.home-work__modal-wrapper-for-display {
+  display: none;
+}
+
+.home-work__modal {
+  height: 100px;
+  width: 300px;
+  border: 2px solid red;
+}
+
+.home-work__modal-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
