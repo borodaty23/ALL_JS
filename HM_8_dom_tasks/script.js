@@ -579,8 +579,17 @@
 
 // let arr = [10, 0, 7, 6, 3, 2];
 
-// arr.sort((a, b) =>{
-//     return a - b});
+const sortArr = (arr, flag) => {
+  if (flag) {
+    arr.sort((a, b) => {
+      return a - b;
+    });
+  } else {
+    arr.sort((a, b) => {
+      return b - a;
+    });
+  }
+};
 
 //     //РАЗОБРАТЬСЯЯ!!!!!!!!
 
